@@ -1,0 +1,16 @@
+{
+    "$schema": "../schemas/blueprint.schema.json",
+    "id": "denny_blueprint_copper_coil",
+    "nameTerm": "tamemobs_copper_coil_name",
+    "group": "Denny_TameMobs",
+    "script": "Denny_CitiesBlueprint",
+    "subprints": [
+        {
+            "RequiredCards": "copper_bar, copper_bar, plastic, metal_scraps",
+            "ResultCard": "denny_copper_coil",
+            "Time": 25,
+            "StatusTerm": "tamemobs_idea_copper_coil_status",
+            "CardsToRemove": "copper_bar, copper_bar, plastic, metal_scraps"
+        }
+    ]
+}

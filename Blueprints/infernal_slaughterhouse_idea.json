@@ -1,0 +1,15 @@
+{
+    "$schema": "../schemas/blueprint.schema.json",
+    "id": "denny_blueprint_infernal_slaughterhouse",
+    "nameTerm": "tamemobs_infernal_slaughterhouse_name",
+    "group": "Denny_TameMobs",
+    "subprints": [
+        {
+            "RequiredCards": "slaughter_house, denny_human_blood, denny_human_blood, denny_human_blood, denny_occult_sigil, denny_occult_sigil, magic_dust, magic_dust, iron_bar, iron_bar, iron_bar",
+            "ResultCard": "denny_infernal_slaughterhouse",
+            "Time": 55,
+            "StatusTerm": "tamemobs_idea_infernal_slaughterhouse_status",
+            "CardsToRemove": "slaughter_house, denny_human_blood, denny_human_blood, denny_human_blood, denny_occult_sigil, denny_occult_sigil, magic_dust, magic_dust, iron_bar, iron_bar, iron_bar"
+        }
+    ]
+}

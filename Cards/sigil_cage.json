@@ -1,0 +1,11 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "id": "denny_sigil_cage",
+    "nameTerm": "tamemobs_sigil_cage_name",
+    "descriptionTerm": "tamemobs_sigil_cage_description",
+    "icon": "SigilCage_Icon.png",
+    "value": 15,
+    "type": "Structure",
+    "script": "Denny_TameMobsNS.Denny_SigilCage",
+    "_IsBuilding": true
+}

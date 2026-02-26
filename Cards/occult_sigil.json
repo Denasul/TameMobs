@@ -1,0 +1,17 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "id": "denny_occult_sigil",
+    "nameTerm": "tamemobs_occult_sigil_name",
+    "descriptionTerm": "tamemobs_occult_sigil_description",
+    "icon": "OccultSigilIcon.png",
+    "type": "Resource",
+    "value": 5,
+    "script": "Denny_TameMobsNS.Denny_OccultSigil",
+    "pickupSound": "occult_sigil_pickup.wav",
+    "_HasUniquePalette": true,
+    "_MyPalette": {
+        "Color": "#822832",
+        "Color2": "#ff0000",
+        "Icon": "#ffffff"
+    }
+}

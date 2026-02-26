@@ -1,0 +1,13 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "id": "denny_summoning_ring",
+    "nameTerm": "tamemobs_summoning_ring_name",
+    "descriptionTerm": "tamemobs_summoning_ring_description",
+    "icon": "SummoningRing_Icon.png",
+    "pickupSound": "summoning_ring_pickup.wav",
+    "value": 25,
+    "type": "Structure",
+    "script": "Denny_TameMobsNS.Denny_SummoningRing",
+    "_IsBuilding": true
+
+}

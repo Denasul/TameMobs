@@ -1,0 +1,13 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "id": "denny_tesla_tower",
+    "nameTerm": "tamemobs_tesla_tower_name",
+    "descriptionTerm": "tamemobs_tesla_tower_description",
+    "icon": "Tesla_TowerIcon.png",
+    "pickupSound": "tesla_tower_pickup.wav",
+    "value": 20,
+    "type": "Structure",
+    "script": "Building",
+    "_CitiesValue": 200,
+    "_IsBuilding": true
+}

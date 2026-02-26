@@ -1,0 +1,12 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "id": "denny_tesla_coil",
+    "nameTerm": "tamemobs_tesla_coil_name",
+    "descriptionTerm": "tamemobs_tesla_coil_description",
+    "pickupSound": "tesla_coil_pickup.wav",
+    "icon": "TeslaCoilIcon.png",
+    "value": 10,
+    "type": "Resources",
+    "_CitiesValue": 80,
+    "script": "Resource"
+}

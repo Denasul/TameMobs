@@ -1,0 +1,11 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "id": "denny_blood_extractor",
+    "nameTerm": "tamemobs_blood_extractor_name",
+    "descriptionTerm": "tamemobs_blood_extractor_description",
+    "icon": "BloodExtractorIcon.png",
+    "value": 6,
+    "type": "Structure",
+    "script": "Denny_TameMobsNS.Denny_BloodExtractor",
+    "_IsBuilding": true
+}

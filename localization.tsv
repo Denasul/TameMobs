@@ -1,0 +1,54 @@
+Term	Notes	English
+		
+tamemobs_blueprint_group_title		Tame Mobs
+		
+tamemobs_config_forget_button		Forget all tame knowledge
+tamemobs_config_forget_button_tooltip		Resets all Ideas and Rumors from this mod.
+		
+tamemobs_config_dragging_name		Allow Dragging Untamed Mobs
+tamemobs_config_dragging_tooltip		Lets you drag mobs that are tamable even if they are not yet tamed. Untamable mobs cannot be dragged.
+		
+tamemobs_rumor_blood_extractor_name		Blood Extraction
+tamemobs_rumor_blood_extractor_description		It is said that the Blood Extractor can draw something valuable from a corpse... if one dares to try.
+		
+tamemobs_rumor_taming_name		Taming Mobs
+tamemobs_rumor_taming_description		Some creatures can be bound. Place an Occult Sigil on top of a mob to attempt to tame it.
+		
+tamemobs_action_summoning		Summoning creature.
+tamemobs_action_slaughtering		Slaughtering creature.
+tamemobs_action_decomposing		Extracting Blood.
+		
+tamemobs_sigil_cage_name		Sigil Cage
+tamemobs_sigil_cage_description		Made to house the worst of the worst.
+tamemobs_idea_sigil_cage_status		Casting Cage Sigil.
+		
+tamemobs_occult_sigil_name		Occult Sigil
+tamemobs_occult_sigil_description		I Rebuke You!
+tamemobs_idea_occult_sigil_status		Doing Dark Magic.
+		
+tamemobs_tesla_tower_name		Tesla Tower
+tamemobs_tesla_tower_description		Provides power to all machinery on this board wirelessly.
+tamemobs_idea_tesla_tower_status		Making Innovations.
+		
+tamemobs_tesla_coil_name		Tesla Coil
+tamemobs_tesla_coil_description		Used to make Tesla Tower.
+tamemobs_idea_tesla_coil_status		Making Sparks.
+		
+tamemobs_copper_coil_name		Copper Coil
+tamemobs_copper_coil_description		Cute little Slinky!
+tamemobs_idea_copper_coil_status		Rolling copper into coil.
+		
+tamemobs_summoning_ring_name		Summoning Ring
+tamemobs_summoning_ring_description		Two tamed creatures perform a ritual to summon another of their kind.
+tamemobs_idea_summoning_ring_status		Making Incantations.
+		
+tamemobs_infernal_slaughterhouse_name		Infernal Slaughterhouse
+tamemobs_infernal_slaughterhouse_description		For processing Tamed Creatures. Progress requires sacrifice.
+tamemobs_idea_infernal_slaughterhouse_status		Sharpening Knives. 
+		
+tamemobs_blood_extractor_name		Blood Extractor
+tamemobs_blood_extractor_description		Processes Remains into Blood and Bones. Waste not!
+tamemobs_idea_blood_extractor_status		Building Human Recycler.
+		
+tamemobs_human_blood_name		Human Blood
+tamemobs_human_blood_description		The Essence of a Human.

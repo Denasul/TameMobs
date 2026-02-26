@@ -1,0 +1,11 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "id": "denny_rumor_taming",
+    "nameTerm": "tamemobs_rumor_taming_name",
+    "descriptionTerm": "tamemobs_rumor_taming_description",
+    "icon": "RumorTamingCreaturesIcon.png",
+    "value": 1,
+    "type": "Rumors",
+    "script": "Rumor",
+    "_KnowledgeGroup": "Denny_TameMobs"
+}

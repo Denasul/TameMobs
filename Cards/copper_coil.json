@@ -1,0 +1,12 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "id": "denny_copper_coil",
+    "nameTerm": "tamemobs_copper_coil_name",
+    "descriptionTerm": "tamemobs_copper_coil_description",
+    "icon": "CopperCoilIcon.png",
+    "value": 5,
+    "type": "Resources",
+    "_CitiesValue": 50,
+    "script": "Resource"
+
+}

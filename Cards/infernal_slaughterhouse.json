@@ -1,0 +1,11 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "id": "denny_infernal_slaughterhouse",
+    "nameTerm": "tamemobs_infernal_slaughterhouse_name",
+    "descriptionTerm": "tamemobs_infernal_slaughterhouse_description",
+    "icon": "IconTamedButchery.png",
+    "value": 6,
+    "type": "Structure",
+    "script": "Denny_TameMobsNS.Denny_TamedSlaughterHouse",
+    "_IsBuilding": true
+}

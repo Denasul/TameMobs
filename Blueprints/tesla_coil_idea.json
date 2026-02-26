@@ -1,0 +1,16 @@
+{
+    "$schema": "../schemas/blueprint.schema.json",
+    "id": "denny_blueprint_tesla_coil",
+    "nameTerm": "tamemobs_tesla_coil_name",
+    "script": "Denny_CitiesBlueprint",
+    "group": "Denny_TameMobs",
+    "subprints": [
+        {
+            "RequiredCards": "denny_copper_coil, denny_copper_coil, denny_copper_coil, electric_motor, electric_motor, iron_bar, iron_bar",
+            "ResultCard": "denny_tesla_coil",
+            "Time": 35,
+            "StatusTerm": "tamemobs_idea_tesla_coil_status",
+            "CardsToRemove": "denny_copper_coil, denny_copper_coil, denny_copper_coil, electric_motor, electric_motor, iron_bar, iron_bar"
+        }
+    ]
+}

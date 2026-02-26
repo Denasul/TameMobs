@@ -1,0 +1,22 @@
+{
+    "$schema": "../schemas/blueprint.schema.json",
+    "id": "denny_blueprint_summoning_ring",
+    "nameTerm": "tamemobs_summoning_ring_name",
+    "group": "Denny_TameMobs",
+    "subprints": [
+        {
+            "RequiredCards": "wizard, denny_sigil_cage, magic_dust, magic_dust, denny_human_blood, denny_human_blood, denny_human_blood, denny_occult_sigil, denny_occult_sigil",
+            "ResultCard": "denny_summoning_ring",
+            "Time": 50,
+            "StatusTerm": "tamemobs_idea_summoning_ring_status",
+            "CardsToRemove": "denny_sigil_cage, magic_dust, magic_dust, denny_human_blood, denny_human_blood, denny_human_blood, denny_occult_sigil, denny_occult_sigil"
+        },
+        {
+            "RequiredCards": "mage, denny_sigil_cage, magic_dust, magic_dust, denny_human_blood, denny_human_blood, denny_human_blood, denny_occult_sigil, denny_occult_sigil",
+            "ResultCard": "denny_summoning_ring",
+            "Time": 50,
+            "StatusTerm": "tamemobs_idea_summoning_ring_status",
+            "CardsToRemove": "denny_sigil_cage, magic_dust, magic_dust, denny_human_blood, denny_human_blood, denny_human_blood, denny_occult_sigil, denny_occult_sigil"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "$schema": "../schemas/blueprint.schema.json",
+    "id": "denny_blueprint_tesla_tower",
+    "nameTerm": "tamemobs_tesla_tower_name",
+    "script": "Denny_CitiesBlueprint",
+    "group": "Denny_TameMobs",
+    "subprints": [
+        {
+            "RequiredCards": "genius, transmission_tower, denny_tesla_coil, denny_tesla_coil, denny_tesla_coil, copper_bar, copper_bar, copper_bar, copper_bar, copper_bar",
+            "ResultCard": "denny_tesla_tower",
+            "Time": 70,
+            "StatusTerm": "tamemobs_idea_tesla_tower_status",
+            "CardsToRemove": "transmission_tower, denny_tesla_coil, denny_tesla_coil, denny_tesla_coil, copper_bar, copper_bar, copper_bar, copper_bar, copper_bar"
+        }
+    ]
+}

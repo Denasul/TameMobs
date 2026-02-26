@@ -1,0 +1,15 @@
+{
+    "$schema": "../schemas/blueprint.schema.json",
+    "id": "denny_blueprint_occult_sigil",
+    "nameTerm": "tamemobs_occult_sigil_name",
+    "group": "Denny_TameMobs",
+    "subprints": [
+        {
+            "RequiredCards": "denny_human_blood, stick, charcoal, magic_dust, magic_dust",
+            "CardsToRemove": "denny_human_blood, stick, charcoal, magic_dust, magic_dust",
+            "ResultCard": "denny_occult_sigil",
+            "Time": 15,
+            "StatusTerm": "tamemobs_idea_occult_sigil_status"
+        }
+    ]
+}

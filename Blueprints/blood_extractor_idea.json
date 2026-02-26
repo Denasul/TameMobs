@@ -1,0 +1,15 @@
+{
+    "$schema": "../schemas/blueprint.schema.json",
+    "id": "denny_blueprint_blood_extractor",
+    "nameTerm": "tamemobs_blood_extractor_name",
+    "group": "Denny_TameMobs",
+    "subprints": [
+        {
+            "RequiredCards": "builder, bone, flint, flint, iron_bar, iron_bar, iron_bar, iron_bar, iron_bar",
+            "ResultCard": "denny_blood_extractor",
+            "Time": 70,
+            "StatusTerm": "tamemobs_idea_blood_extractor_status",
+            "CardsToRemove": "bone, flint, flint, iron_bar, iron_bar, iron_bar, iron_bar, iron_bar"
+        }
+    ]
+}

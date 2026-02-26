@@ -1,0 +1,16 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "id": "denny_human_blood",
+    "nameTerm": "tamemobs_human_blood_name",
+    "descriptionTerm": "tamemobs_human_blood_description",
+    "icon": "HumanBloodIcon.png",
+    "type": "Resources",
+    "script": "Resource",
+    "value": 3,
+    "_HasUniquePalette": true,
+    "_MyPalette": {
+        "Color": "#df4a47",
+        "Color2": "#e87979",
+        "Icon": "#000000"
+    }
+}

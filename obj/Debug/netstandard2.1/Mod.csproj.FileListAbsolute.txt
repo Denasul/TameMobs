@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\NewStacklandsMod\bin\Debug\netstandard2.1\denny_tamemobs.deps.json
+C:\Users\Admin\Desktop\NewStacklandsMod\bin\Debug\netstandard2.1\denny_tamemobs.dll
+C:\Users\Admin\Desktop\NewStacklandsMod\bin\Debug\netstandard2.1\denny_tamemobs.pdb
+C:\Users\Admin\Desktop\NewStacklandsMod\obj\Debug\netstandard2.1\Mod.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\NewStacklandsMod\obj\Debug\netstandard2.1\Mod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\NewStacklandsMod\obj\Debug\netstandard2.1\Mod.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\NewStacklandsMod\obj\Debug\netstandard2.1\Mod.AssemblyInfo.cs
+C:\Users\Admin\Desktop\NewStacklandsMod\obj\Debug\netstandard2.1\Mod.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\NewStacklandsMod\obj\Debug\netstandard2.1\denny_tamemobs.dll
+C:\Users\Admin\Desktop\NewStacklandsMod\obj\Debug\netstandard2.1\denny_tamemobs.pdb

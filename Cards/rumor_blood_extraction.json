@@ -1,0 +1,11 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "id": "denny_rumor_blood_extraction",
+    "nameTerm": "tamemobs_rumor_blood_extractor_name",
+    "descriptionTerm": "tamemobs_rumor_blood_extractor_description",
+    "icon": "RumorBloodExtractioIcon.png",
+    "value": 1,
+    "type": "Rumors",
+    "script": "Rumor",
+    "_KnowledgeGroup": "Denny_TameMobs"
+}

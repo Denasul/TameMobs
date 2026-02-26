@@ -1,0 +1,23 @@
+{
+    "$schema": "../schemas/blueprint.schema.json",
+    "id": "denny_blueprint_sigil_cage",
+    "nameTerm": "tamemobs_sigil_cage_name",
+    "group": "Denny_TameMobs",
+    "script": "Denny_TameMobsNS.Denny_SigilCageBlueprint",
+    "subprints": [
+        {
+            "RequiredCards": "wizard, gold_bar, gold_bar, iron_bar, iron_bar, iron_bar, animal_pen, denny_occult_sigil, denny_occult_sigil, denny_occult_sigil, denny_occult_sigil, denny_occult_sigil",
+            "ResultCard": "denny_sigil_cage",
+            "Time": 25,
+            "StatusTerm": "tamemobs_idea_sigil_cage_status",
+            "CardsToRemove": "gold_bar, gold_bar, iron_bar, iron_bar, iron_bar, animal_pen, denny_occult_sigil, denny_occult_sigil, denny_occult_sigil, denny_occult_sigil, denny_occult_sigil"
+        },
+        {
+            "RequiredCards": "mage, gold_bar, gold_bar, iron_bar, iron_bar, iron_bar, animal_pen, denny_occult_sigil, denny_occult_sigil, denny_occult_sigil, denny_occult_sigil, denny_occult_sigil",
+            "ResultCard": "denny_sigil_cage",
+            "Time": 25,
+            "StatusTerm": "tamemobs_idea_sigil_cage_status",
+            "CardsToRemove": "gold_bar, gold_bar, iron_bar, iron_bar, iron_bar, animal_pen, denny_occult_sigil, denny_occult_sigil, denny_occult_sigil, denny_occult_sigil, denny_occult_sigil"
+        }
+    ]
+}
