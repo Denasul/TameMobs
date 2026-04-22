@@ -84,7 +84,7 @@ namespace Denny_TameMobsNS
             tamedMobScript.myGameCard = enemyBro.MyGameCard;
         }
 
-        public static void ForceClearMobInventory(Enemy enemyBro) // DOESN'T WORK FOR SOME FUCKING REASON FML
+        public static void ForceClearMobInventory(Enemy enemyBro)
         {
             var equipables = enemyBro.GetAllEquipables().ToList();
 
