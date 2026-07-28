@@ -4,7 +4,7 @@
     "nameTerm": "tamemobs_occult_sigil_name",
     "descriptionTerm": "tamemobs_occult_sigil_description",
     "icon": "OccultSigilIcon.png",
-    "type": "Resource",
+    "type": "Resources",
     "value": 5,
     "script": "Denny_TameMobsNS.Denny_OccultSigil",
     "pickupSound": "occult_sigil_pickup.wav",
