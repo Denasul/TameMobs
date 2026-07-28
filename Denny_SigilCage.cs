@@ -28,6 +28,27 @@ namespace Denny_TameMobsNS
             else return false;
         }
 
+        protected override void Awake()
+        {
+            EnergyConnectors.Add(new CardConnectorData
+            {
+                EnergyConnectionStrength = ConnectionType.Transport,
+                EnergyConnectionType = CardDirection.input,
+                EnergyConnectionAmount = 3
+            });
+
+            EnergyConnectors.Add(new CardConnectorData
+            {
+                EnergyConnectionStrength = ConnectionType.Transport,
+                EnergyConnectionType = CardDirection.output,
+                EnergyConnectionAmount = 1
+            });
+
+            this.MyGameCard.CreateCardConnectors();
+
+            base.Awake();
+        }
+
 
 
     }

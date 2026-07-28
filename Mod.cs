@@ -20,6 +20,7 @@ namespace Denny_TameMobsNS
 
         // CONFIG
         public static ConfigEntry<bool> dragUntamedMobs;
+
         //
 
         public static readonly string[] TamableMobsIDs =
@@ -38,7 +39,7 @@ namespace Denny_TameMobsNS
             "enchanted_shroom",
             "ent",
             "rat",
-            "giant_rat", //
+            "giant_rat", 
             "seagull",
             "shark",
             "skeleton",
@@ -61,6 +62,7 @@ namespace Denny_TameMobsNS
         {
             instance = this;
             ExtendEnums();
+
         }
 
         public override void Ready()

@@ -7,6 +7,8 @@ namespace Denny_TameMobsNS
     {
         public override bool DetermineCanHaveCardsWhenIsRoot => true;
 
+        private static readonly float timeToSpawn = 90f;
+
         protected override bool CanHaveCard(CardData otherCard)
         {
             if (otherCard == null)
@@ -33,12 +35,33 @@ namespace Denny_TameMobsNS
             return false;
         }
 
+        protected override void Awake()
+        {
+            EnergyConnectors.Add(new CardConnectorData
+            {
+                EnergyConnectionStrength = ConnectionType.Transport,
+                EnergyConnectionType = CardDirection.input,
+                EnergyConnectionAmount = 3
+            });
+
+            EnergyConnectors.Add(new CardConnectorData
+            {
+                EnergyConnectionStrength = ConnectionType.Transport,
+                EnergyConnectionType = CardDirection.output,
+                EnergyConnectionAmount = 1
+            });
+
+            this.MyGameCard.CreateCardConnectors();
+
+            base.Awake();
+        }
+
         public override void UpdateCard()
         {
             if (this.MyGameCard.GetChildCount() == 2)
             {
                 this.MyGameCard.StartTimer(
-                    120f,
+                    timeToSpawn,
                     new TimerAction(this.SummonCreature),
                     SokLoc.Translate("tamemobs_action_summoning"),
                     base.GetActionId("SummonCreature"),

@@ -16,6 +16,29 @@ namespace Denny_TameMobsNS
             return true;
         }
 
+        private static readonly float timeToButcher = 45f;
+
+        protected override void Awake()
+        {
+            EnergyConnectors.Add(new CardConnectorData
+            {
+                EnergyConnectionStrength = ConnectionType.Transport,
+                EnergyConnectionType = CardDirection.input,
+                EnergyConnectionAmount = 3
+            });
+
+            EnergyConnectors.Add(new CardConnectorData
+            {
+                EnergyConnectionStrength = ConnectionType.Transport,
+                EnergyConnectionType = CardDirection.output,
+                EnergyConnectionAmount = 1
+            });
+
+            this.MyGameCard.CreateCardConnectors();
+
+            base.Awake();
+        }
+
         protected override bool CanHaveCard(CardData otherCard)
         {
             if (otherCard == null) return false;
@@ -33,7 +56,7 @@ namespace Denny_TameMobsNS
             if (MyGameCard.HasChild && MyGameCard.Child?.CardData is Mob mob && TameUtil.IsTamed(mob))
             {
                 MyGameCard.StartTimer(
-                    60f,
+                    timeToButcher,
                     new TimerAction(this.SlaughterTamedMob),
                     SokLoc.Translate("tamemobs_action_slaughtering"),
                     base.GetActionId("SlaughterTamedMob"),

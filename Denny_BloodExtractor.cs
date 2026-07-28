@@ -36,6 +36,30 @@ namespace Denny_TameMobsNS
             return num <= MaxCorpseCount;
         }
 
+        //define connectors and add them to card
+
+        protected override void Awake()
+        {
+            EnergyConnectors.Add(new CardConnectorData
+            {
+                EnergyConnectionStrength = ConnectionType.Transport,
+                EnergyConnectionType = CardDirection.input,
+                EnergyConnectionAmount = 3
+            });
+
+            // idk if you can have more than 1 output
+            EnergyConnectors.Add(new CardConnectorData
+            {
+                EnergyConnectionStrength = ConnectionType.Transport,
+                EnergyConnectionType = CardDirection.output,
+                EnergyConnectionAmount = 1
+            });
+
+            this.MyGameCard.CreateCardConnectors();
+
+            base.Awake();
+        }
+
         public override void UpdateCard()
         {
             if (this.MyGameCard != null
